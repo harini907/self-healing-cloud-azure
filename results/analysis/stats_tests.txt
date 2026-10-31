@@ -1,0 +1,44 @@
+Significance tests (integrated vs others)
+============================================================
+availability       integrated=   98.80  reactive        =   87.85  Welch t= 11.36 p=3.261e-06   paired t= 14.52 p=0.000131
+sla_viol_seconds   integrated=    2.25  reactive        =   27.97  Welch t=-35.98 p=8.515e-08   paired t=-41.06 p=2.102e-06
+p95_ms             integrated=   67.91  reactive        =  239.79  Welch t= -5.38 p=0.005488   paired t= -5.50 p=0.005312
+under_prov         integrated=    0.22  reactive        =    0.25  Welch t= -0.16 p=0.8744   paired t= -0.30 p=0.778
+avg_replicas       integrated=    3.17  reactive        =    3.08  Welch t=  1.77 p=0.1241   paired t=  1.72 p=0.1613
+------------------------------------------------------------
+availability       integrated=   98.80  predictive      =   87.84  Welch t= 10.73 p=5.313e-06   paired t= 12.85 p=0.0002116
+sla_viol_seconds   integrated=    2.25  predictive      =   27.94  Welch t=-32.12 p=4.656e-09   paired t=-36.28 p=3.445e-06
+p95_ms             integrated=   67.91  predictive      =  250.37  Welch t= -8.55 p=0.0008623   paired t= -8.85 p=0.0009008
+under_prov         integrated=    0.22  predictive      =    0.56  Welch t= -1.18 p=0.2842   paired t= -1.60 p=0.1856
+avg_replicas       integrated=    3.17  predictive      =    3.05  Welch t=  3.26 p=0.01176   paired t=  3.99 p=0.01631
+------------------------------------------------------------
+availability       integrated=   98.80  selfheal        =   98.71  Welch t=  0.09 p=0.9282   paired t=  0.43 p=0.687
+sla_viol_seconds   integrated=    2.25  selfheal        =    1.89  Welch t=  0.40 p=0.6985   paired t=  0.88 p=0.4269
+p95_ms             integrated=   67.91  selfheal        =   70.84  Welch t= -0.60 p=0.5683   paired t= -2.04 p=0.1104
+under_prov         integrated=    0.22  selfheal        =    0.25  Welch t= -0.13 p=0.8985   paired t= -0.53 p=0.6213
+avg_replicas       integrated=    3.17  selfheal        =    3.16  Welch t=  0.08 p=0.9385   paired t=  0.08 p=0.9429
+------------------------------------------------------------
+availability       integrated=   98.80  no_arbiter      =   98.62  Welch t=  0.18 p=0.8579   paired t=  1.38 p=0.2386
+sla_viol_seconds   integrated=    2.25  no_arbiter      =    2.39  Welch t= -0.16 p=0.876   paired t= -0.88 p=0.43
+p95_ms             integrated=   67.91  no_arbiter      =   69.45  Welch t= -0.33 p=0.7518   paired t= -1.23 p=0.2854
+under_prov         integrated=    0.22  no_arbiter      =    0.39  Welch t= -0.62 p=0.5602   paired t= -1.50 p=0.208
+avg_replicas       integrated=    3.17  no_arbiter      =    3.17  Welch t= -0.20 p=0.8487   paired t= -0.23 p=0.8269
+------------------------------------------------------------
+availability       integrated=   98.80  no_diagnosis    =   92.10  Welch t=  5.42 p=0.000996   paired t= 10.20 p=0.0005197
+sla_viol_seconds   integrated=    2.25  no_diagnosis    =   13.61  Welch t=-16.79 p=2.588e-05   paired t=-20.89 p=3.106e-05
+p95_ms             integrated=   67.91  no_diagnosis    =   71.99  Welch t= -0.74 p=0.4816   paired t= -2.07 p=0.1071
+under_prov         integrated=    0.22  no_diagnosis    =    0.19  Welch t=  0.16 p=0.879   paired t=  0.53 p=0.6213
+avg_replicas       integrated=    3.17  no_diagnosis    =    3.46  Welch t= -8.74 p=2.373e-05   paired t=-13.05 p=0.0001993
+------------------------------------------------------------
+availability       integrated=   98.80  no_failure_pred =   98.78  Welch t=  0.02 p=0.9839   paired t=  0.82 p=0.4606
+sla_viol_seconds   integrated=    2.25  no_failure_pred =    2.33  Welch t= -0.09 p=0.9304   paired t= -1.18 p=0.3046
+p95_ms             integrated=   67.91  no_failure_pred =   68.01  Welch t= -0.02 p=0.9824   paired t= -0.15 p=0.8905
+under_prov         integrated=    0.22  no_failure_pred =    0.36  Welch t= -0.72 p=0.4913   paired t= -1.58 p=0.189
+avg_replicas       integrated=    3.17  no_failure_pred =    3.19  Welch t= -0.84 p=0.4257   paired t= -0.66 p=0.543
+------------------------------------------------------------
+availability       integrated=   98.80  no_uncertainty  =   98.64  Welch t=  0.21 p=0.843   paired t=  0.17 p=0.8707
+sla_viol_seconds   integrated=    2.25  no_uncertainty  =    2.75  Welch t= -0.64 p=0.5402   paired t= -0.58 p=0.5909
+p95_ms             integrated=   67.91  no_uncertainty  =   75.72  Welch t= -2.33 p=0.0586   paired t= -2.86 p=0.04599
+under_prov         integrated=    0.22  no_uncertainty  =    0.56  Welch t= -1.67 p=0.1341   paired t= -3.21 p=0.03268
+avg_replicas       integrated=    3.17  no_uncertainty  =    3.01  Welch t=  2.35 p=0.06481   paired t=  2.10 p=0.1035
+------------------------------------------------------------

@@ -1,0 +1,163 @@
+40 runs to do, about 8.3 hours. Results -> results/
+
+=== run 1/40: reactive seed 1  (04:57:32)
+[reactive seed=1] running 720s ... faults: crash@69s->app2, network_delay@175s->app2, memory_leak@292s->app1, cpu_hog@410s->app1, dependency_outage@520s->app2
+[reactive seed=1] done -> results/reactive/seed1
+
+=== run 2/40: predictive seed 1  (05:09:42)
+[predictive seed=1] running 720s ... faults: crash@69s->app2, network_delay@175s->app2, memory_leak@292s->app1, cpu_hog@410s->app1, dependency_outage@520s->app2
+[predictive seed=1] done -> results/predictive/seed1
+
+=== run 3/40: selfheal seed 1  (05:21:53)
+[selfheal seed=1] running 720s ... faults: crash@69s->app2, network_delay@175s->app2, memory_leak@292s->app1, cpu_hog@410s->app1, dependency_outage@520s->app2
+[selfheal seed=1] done -> results/selfheal/seed1
+
+=== run 4/40: integrated seed 1  (05:34:03)
+[integrated seed=1] running 720s ... faults: crash@69s->app2, network_delay@175s->app2, memory_leak@292s->app1, cpu_hog@410s->app1, dependency_outage@520s->app2
+[integrated seed=1] done -> results/integrated/seed1
+
+=== run 5/40: no_arbiter seed 1  (05:46:14)
+[no_arbiter seed=1] running 720s ... faults: crash@69s->app2, network_delay@175s->app2, memory_leak@292s->app1, cpu_hog@410s->app1, dependency_outage@520s->app2
+[no_arbiter seed=1] done -> results/no_arbiter/seed1
+
+=== run 6/40: no_diagnosis seed 1  (05:58:24)
+[no_diagnosis seed=1] running 720s ... faults: crash@69s->app2, network_delay@175s->app2, memory_leak@292s->app1, cpu_hog@410s->app1, dependency_outage@520s->app2
+[no_diagnosis seed=1] done -> results/no_diagnosis/seed1
+
+=== run 7/40: no_failure_pred seed 1  (06:10:35)
+[no_failure_pred seed=1] running 720s ... faults: crash@69s->app2, network_delay@175s->app2, memory_leak@292s->app1, cpu_hog@410s->app1, dependency_outage@520s->app2
+[no_failure_pred seed=1] done -> results/no_failure_pred/seed1
+
+=== run 8/40: no_uncertainty seed 1  (06:22:45)
+[no_uncertainty seed=1] running 720s ... faults: crash@69s->app2, network_delay@175s->app2, memory_leak@292s->app1, cpu_hog@410s->app1, dependency_outage@520s->app2
+[no_uncertainty seed=1] done -> results/no_uncertainty/seed1
+
+=== run 9/40: reactive seed 2  (06:34:56)
+[reactive seed=2] running 720s ... faults: dependency_outage@63s->app2, network_delay@176s->app1, crash@289s->app1, memory_leak@405s->app2, cpu_hog@518s->app1
+[reactive seed=2] done -> results/reactive/seed2
+
+=== run 10/40: predictive seed 2  (06:47:06)
+[predictive seed=2] running 720s ... faults: dependency_outage@63s->app2, network_delay@176s->app1, crash@289s->app1, memory_leak@405s->app2, cpu_hog@518s->app1
+[predictive seed=2] done -> results/predictive/seed2
+
+=== run 11/40: selfheal seed 2  (06:59:16)
+[selfheal seed=2] running 720s ... faults: dependency_outage@63s->app2, network_delay@176s->app1, crash@289s->app1, memory_leak@405s->app2, cpu_hog@518s->app1
+[selfheal seed=2] done -> results/selfheal/seed2
+
+=== run 12/40: integrated seed 2  (07:11:27)
+[integrated seed=2] running 720s ... faults: dependency_outage@63s->app2, network_delay@176s->app1, crash@289s->app1, memory_leak@405s->app2, cpu_hog@518s->app1
+[integrated seed=2] done -> results/integrated/seed2
+
+=== run 13/40: no_arbiter seed 2  (07:23:38)
+[no_arbiter seed=2] running 720s ... faults: dependency_outage@63s->app2, network_delay@176s->app1, crash@289s->app1, memory_leak@405s->app2, cpu_hog@518s->app1
+[no_arbiter seed=2] done -> results/no_arbiter/seed2
+
+=== run 14/40: no_diagnosis seed 2  (07:35:48)
+[no_diagnosis seed=2] running 720s ... faults: dependency_outage@63s->app2, network_delay@176s->app1, crash@289s->app1, memory_leak@405s->app2, cpu_hog@518s->app1
+[no_diagnosis seed=2] done -> results/no_diagnosis/seed2
+
+=== run 15/40: no_failure_pred seed 2  (07:47:59)
+[no_failure_pred seed=2] running 720s ... faults: dependency_outage@63s->app2, network_delay@176s->app1, crash@289s->app1, memory_leak@405s->app2, cpu_hog@518s->app1
+[no_failure_pred seed=2] done -> results/no_failure_pred/seed2
+
+=== run 16/40: no_uncertainty seed 2  (08:00:09)
+[no_uncertainty seed=2] running 720s ... faults: dependency_outage@63s->app2, network_delay@176s->app1, crash@289s->app1, memory_leak@405s->app2, cpu_hog@518s->app1
+[no_uncertainty seed=2] done -> results/no_uncertainty/seed2
+
+=== run 17/40: reactive seed 3  (08:12:19)
+[reactive seed=3] running 720s ... faults: memory_leak@61s->app1, crash@175s->app1, network_delay@289s->app2, cpu_hog@406s->app1, dependency_outage@517s->app2
+[reactive seed=3] done -> results/reactive/seed3
+
+=== run 18/40: predictive seed 3  (08:24:30)
+[predictive seed=3] running 720s ... faults: memory_leak@61s->app1, crash@175s->app1, network_delay@289s->app2, cpu_hog@406s->app1, dependency_outage@517s->app2
+[predictive seed=3] done -> results/predictive/seed3
+
+=== run 19/40: selfheal seed 3  (08:36:40)
+[selfheal seed=3] running 720s ... faults: memory_leak@61s->app1, crash@175s->app1, network_delay@289s->app2, cpu_hog@406s->app1, dependency_outage@517s->app2
+[selfheal seed=3] done -> results/selfheal/seed3
+
+=== run 20/40: integrated seed 3  (08:48:51)
+[integrated seed=3] running 720s ... faults: memory_leak@61s->app1, crash@175s->app1, network_delay@289s->app2, cpu_hog@406s->app1, dependency_outage@517s->app2
+[integrated seed=3] done -> results/integrated/seed3
+
+=== run 21/40: no_arbiter seed 3  (09:01:02)
+[no_arbiter seed=3] running 720s ... faults: memory_leak@61s->app1, crash@175s->app1, network_delay@289s->app2, cpu_hog@406s->app1, dependency_outage@517s->app2
+[no_arbiter seed=3] done -> results/no_arbiter/seed3
+
+=== run 22/40: no_diagnosis seed 3  (09:13:13)
+[no_diagnosis seed=3] running 720s ... faults: memory_leak@61s->app1, crash@175s->app1, network_delay@289s->app2, cpu_hog@406s->app1, dependency_outage@517s->app2
+[no_diagnosis seed=3] done -> results/no_diagnosis/seed3
+
+=== run 23/40: no_failure_pred seed 3  (09:25:23)
+[no_failure_pred seed=3] running 720s ... faults: memory_leak@61s->app1, crash@175s->app1, network_delay@289s->app2, cpu_hog@406s->app1, dependency_outage@517s->app2
+[no_failure_pred seed=3] done -> results/no_failure_pred/seed3
+
+=== run 24/40: no_uncertainty seed 3  (09:37:34)
+[no_uncertainty seed=3] running 720s ... faults: memory_leak@61s->app1, crash@175s->app1, network_delay@289s->app2, cpu_hog@406s->app1, dependency_outage@517s->app2
+[no_uncertainty seed=3] done -> results/no_uncertainty/seed3
+
+=== run 25/40: reactive seed 4  (09:49:44)
+[reactive seed=4] running 720s ... faults: network_delay@64s->app2, crash@174s->app1, cpu_hog@296s->app1, memory_leak@404s->app1, dependency_outage@519s->app1
+[reactive seed=4] done -> results/reactive/seed4
+
+=== run 26/40: predictive seed 4  (10:01:54)
+[predictive seed=4] running 720s ... faults: network_delay@64s->app2, crash@174s->app1, cpu_hog@296s->app1, memory_leak@404s->app1, dependency_outage@519s->app1
+[predictive seed=4] done -> results/predictive/seed4
+
+=== run 27/40: selfheal seed 4  (10:14:05)
+[selfheal seed=4] running 720s ... faults: network_delay@64s->app2, crash@174s->app1, cpu_hog@296s->app1, memory_leak@404s->app1, dependency_outage@519s->app1
+[selfheal seed=4] done -> results/selfheal/seed4
+
+=== run 28/40: integrated seed 4  (10:26:15)
+[integrated seed=4] running 720s ... faults: network_delay@64s->app2, crash@174s->app1, cpu_hog@296s->app1, memory_leak@404s->app1, dependency_outage@519s->app1
+[integrated seed=4] done -> results/integrated/seed4
+
+=== run 29/40: no_arbiter seed 4  (10:38:26)
+[no_arbiter seed=4] running 720s ... faults: network_delay@64s->app2, crash@174s->app1, cpu_hog@296s->app1, memory_leak@404s->app1, dependency_outage@519s->app1
+[no_arbiter seed=4] done -> results/no_arbiter/seed4
+
+=== run 30/40: no_diagnosis seed 4  (10:50:36)
+[no_diagnosis seed=4] running 720s ... faults: network_delay@64s->app2, crash@174s->app1, cpu_hog@296s->app1, memory_leak@404s->app1, dependency_outage@519s->app1
+[no_diagnosis seed=4] done -> results/no_diagnosis/seed4
+
+=== run 31/40: no_failure_pred seed 4  (11:02:47)
+[no_failure_pred seed=4] running 720s ... faults: network_delay@64s->app2, crash@174s->app1, cpu_hog@296s->app1, memory_leak@404s->app1, dependency_outage@519s->app1
+[no_failure_pred seed=4] done -> results/no_failure_pred/seed4
+
+=== run 32/40: no_uncertainty seed 4  (11:14:57)
+[no_uncertainty seed=4] running 720s ... faults: network_delay@64s->app2, crash@174s->app1, cpu_hog@296s->app1, memory_leak@404s->app1, dependency_outage@519s->app1
+[no_uncertainty seed=4] done -> results/no_uncertainty/seed4
+
+=== run 33/40: reactive seed 5  (11:27:07)
+[reactive seed=5] running 720s ... faults: dependency_outage@64s->app1, cpu_hog@180s->app2, crash@290s->app2, network_delay@406s->app1, memory_leak@516s->app1
+[reactive seed=5] done -> results/reactive/seed5
+
+=== run 34/40: predictive seed 5  (11:39:18)
+[predictive seed=5] running 720s ... faults: dependency_outage@64s->app1, cpu_hog@180s->app2, crash@290s->app2, network_delay@406s->app1, memory_leak@516s->app1
+[predictive seed=5] done -> results/predictive/seed5
+
+=== run 35/40: selfheal seed 5  (11:51:28)
+[selfheal seed=5] running 720s ... faults: dependency_outage@64s->app1, cpu_hog@180s->app2, crash@290s->app2, network_delay@406s->app1, memory_leak@516s->app1
+[selfheal seed=5] done -> results/selfheal/seed5
+
+=== run 36/40: integrated seed 5  (12:03:39)
+[integrated seed=5] running 720s ... faults: dependency_outage@64s->app1, cpu_hog@180s->app2, crash@290s->app2, network_delay@406s->app1, memory_leak@516s->app1
+[integrated seed=5] done -> results/integrated/seed5
+
+=== run 37/40: no_arbiter seed 5  (12:15:49)
+[no_arbiter seed=5] running 720s ... faults: dependency_outage@64s->app1, cpu_hog@180s->app2, crash@290s->app2, network_delay@406s->app1, memory_leak@516s->app1
+[no_arbiter seed=5] done -> results/no_arbiter/seed5
+
+=== run 38/40: no_diagnosis seed 5  (12:28:00)
+[no_diagnosis seed=5] running 720s ... faults: dependency_outage@64s->app1, cpu_hog@180s->app2, crash@290s->app2, network_delay@406s->app1, memory_leak@516s->app1
+[no_diagnosis seed=5] done -> results/no_diagnosis/seed5
+
+=== run 39/40: no_failure_pred seed 5  (12:40:10)
+[no_failure_pred seed=5] running 720s ... faults: dependency_outage@64s->app1, cpu_hog@180s->app2, crash@290s->app2, network_delay@406s->app1, memory_leak@516s->app1
+[no_failure_pred seed=5] done -> results/no_failure_pred/seed5
+
+=== run 40/40: no_uncertainty seed 5  (12:52:21)
+[no_uncertainty seed=5] running 720s ... faults: dependency_outage@64s->app1, cpu_hog@180s->app2, crash@290s->app2, network_delay@406s->app1, memory_leak@516s->app1
+[no_uncertainty seed=5] done -> results/no_uncertainty/seed5
+
+All runs finished. Now run:  python3 analyze.py results
